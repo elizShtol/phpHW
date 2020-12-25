@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.message {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 220px;
+    height: 30px;
+}
+
+.authBox {
+    width: 35%;
+    background-color: #A693B4;
+    border-radius: 10px;
+    height: 45vh;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    color: white;
+    padding: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.inputDescr {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.text-box {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #CFD5DD;
+    color: black;
+}
+
+.inputText {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.authText {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #7F668F;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.login {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 10px;
+    cursor: pointer;
+}
+
+.links-navigation {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 30px 30px;
+}
+
+.link-navigation {
+    padding: 10px;
+    color: white;
+    background-color: #7F668F;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-menu {
+    width: 100%;
+    background-color: #A693B4;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.goout {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    margin: 30px 30px;
+}
+
+.eventForm {
+    width: 50%;
+    height: 300px;
+    background-color: #707F99;
+    border-radius: 8px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+
+.addForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    width: 100%;
+    height: 80px;
+    background-color: #A693B4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-text {
+    align-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addButton {
+    background-color: #707F99;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 10px;
+        cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.updButton {
+    background-color: #707F99;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+
+
